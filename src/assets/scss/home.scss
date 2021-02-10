@@ -1,0 +1,70 @@
+.home{
+    // background-color: black;
+    .user{
+        display: flex;
+        align-items: center; //垂直居中
+        justify-content: space-around;
+        padding-bottom: 20px;
+        margin-bottom: 20px;
+        border-bottom: 1px solid #ccc;
+        .userInfo{
+            .name{
+                font-size: 32px;
+                margin-bottom: 20px;
+            }
+            .access{
+                color: #999;
+            }
+        }
+    }
+    .login-info{
+        p{
+            line-height: 28px;
+            font-size: 14px;
+            color: #999999;
+            span{
+                color: #666;
+                margin-left: 60px;
+            }
+        }
+    }
+    .num{
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: space-between;
+        .el-card{
+            width: 32%;
+            margin-bottom: 20px;
+        }
+        .icon{
+            font-size: 30px;
+            width: 80px;
+            height:80px;
+            text-align: center;
+            line-height: 80px;
+            color: #fff;
+        }
+        .detail{
+            margin-left: 15px;
+            display: flex;
+            flex-direction: column; //垂直
+            justify-content: center;
+            .num{
+                font-size: 30px;
+                margin-bottom: 10px;
+            }
+            .txt{
+                font-size: 14px;
+                text-align: center;
+            }
+        }
+    }
+    .graph{
+        margin-top: 20px;
+        display: flex;
+        justify-content: space-between;
+        .el-card{
+            width: 48%;
+        }
+    }
+}
